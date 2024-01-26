@@ -31,21 +31,41 @@
 .Price-location__top-left {
   top: 10px;
   left: 10px;
+  display: flex;
 }
 
 .Price-location__top-right {
   top: 10px;
   right: 10px;
+  display: flex;
 }
 
 .Price-location__bottom-right {
   bottom: 80px;
   right: 10px;
+  display: flex;
 }
 
 .Price-location__bottom-left {
   bottom: 80px;
   left: 10px;
+  display: flex;
+}
+.Price-location__disabled {
+  display: flex;
+  display: none;
+}
+
+.Price-location__center-left {
+  bottom: 240px;
+  left: 10px;
+  display: flex;
+}
+
+.Price-location__center-right {
+  bottom: 240px;
+  right: 10px;
+  display: flex;
 }
 
 @keyframes App-logo-spin {
