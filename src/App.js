@@ -13,7 +13,7 @@ const locationPriceClassName = {
 };
 
 function App() {
-  const [locationPrice, setLocationPrice] = useState("topLeft");
+  const [locationPrice, setLocationPrice] = useState(2);
 
   function findLocationPriceClassName(locationPrice) {
     return locationPriceClassName[locationPrice];
@@ -61,10 +61,6 @@ function App() {
           id="DNKSETCARTRULEWITHLINK_SHOW_STICKER_PRODUCT"
           onChange={onChangeLocationPrice}
         >
-          {/* <option value="topLeft">Top-left</option>
-          <option value="topRight">Top-right</option>
-          <option value="bottomLeft">Bottom-left</option>
-          <option value="bottomRight">Bottom-right</option> */}
           <option value="0">Disabled</option>
           <option value="1">Top Left</option>
           <option value="2" selected="selected">
